@@ -1,2 +1,2 @@
   
-web: gunicorn Erp-System-Backend.wsgi --log-file -
+web: gunicorn app.app.wsgi --log-file -
