@@ -25,7 +25,7 @@ SECRET_KEY = "&1ek&i(7twko7*jt$vmn*ujs4wlo(6o6cnate!6opa2hq!^m*t"
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['erpiworkbackend.herokuapp.com']
 
 
 # Application definition
