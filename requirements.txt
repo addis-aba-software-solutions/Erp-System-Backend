@@ -5,4 +5,4 @@ psycopg2>=2.8.4,<2.9.0
 flake8>=3.7.9,<3.8.0
 django-cors-headers 
 django-model-utils>=4.0.0,<4.1.0
-gunicorn==9.9.0
+gunicorn
