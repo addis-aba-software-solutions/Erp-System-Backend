@@ -1,1 +1,1 @@
-web: gunicorn erpiworkbackend:app
+web: gunicorn app.app.wsgi
