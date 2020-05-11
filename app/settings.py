@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 import os
-
+# import django_heroku
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -136,7 +136,4 @@ CORS_ORIGIN_ALLOW_ALL = True
 STATIC_URL = "/static/"
 WSGI_APPLICATION = "app.wsgi.application"
 
-# import dj_database_url
-# db_from_env = dj_database_url.config()
-# DATABASES['default'].update(db_from_env)
-# DATABASES['default']['CONN_MAX_AGE'] = 500
+# django_heroku.settings(locals())
