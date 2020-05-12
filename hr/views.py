@@ -525,7 +525,7 @@ class StatusRUD(generics.RetrieveUpdateDestroyAPIView):
        return self.retrieve(request, order)
 
     def put(self, request, order=None):
-       print(request.data) 
+       print((request.data)) 
        return  self.partial_update(request, order)
         
     def delete(self, request, order=None):
